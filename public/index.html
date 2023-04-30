@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/843ca28164.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_left">
+            <a href="#" class="circle"></a>
+            <a href="#"><span style="color:black;font-size:18px">Prathibha Garipelly</span></a>
+         
+        </div>
+        <div class="nav_right">
+            <a class="nav_links" href="#About"><i class="fa-solid fa-house"></i>About</a>  
+            <a class="nav_links" href="#Experience"><i class="fa-solid fa-suitcase"></i>Experience</a>
+            <a class="nav_links" href="#Education"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+            <a class="nav_links" href="#Projects"><i class="fa-solid fa-lightbulb"></i>Projects</a>
+            <a class="nav_links" href="#Certifications"><i class="fa-solid fa-clipboard-list"></i>Certifications</a>
+            <a class="nav_links" href="#Contact"><i class="fas fa-user-circle"></i>Contact</a>
+        </div>
+    </nav>
+    <br>
+    <div class="box1" id="about">
+        <p>
+            <h2>Career Objective</h2>
+            Self-motivated and keen learner seeking an opportunity to enhance my skills and build a strong career.
+        </p>
+    </div>
+    <div class="box2">
+        <div class="box" id="Experience">
+            <h2>Experience</h2>
+            <h3>Capgemini  Technology Services India Limited, 3/21 to 5/21</h3>
+            <p>
+                Successfully completed internship remotely on JEE Full Stack 2.0 with Angular<br>
+                and developed an application with a team under the guidance of Yogini Naik.
+            </p>
+
+        </div>
+        <div class="box" id="Projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Augmented Reality Business Cards, 07/2019-01/2020</h3>
+                    Designed and built AR Business cards using futuristic technology”Augmented Reality” and tools like Unity 3D which can help businesses to market their products in the best possible way.<br>
+                    Software used is Unity 3D
+                </li>
+                <li>
+                   <h3>AR Portrait Master, 12/20-5/21</h3>
+                        Successfully built an AI based mobile app for developing portrait drawing skills through a unique interactive approach of Augmented Reality.<br>
+                        Softwares used are Runway ML,Unity 3D
+
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+    
+    <div class="box3">
+        <div class="box" id="Education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    University of New Haven,Connecticut,Unites States<br>
+                    2022-Present<br>
+                    Master’s in Computer Science
+                    </li>
+                <li>
+                    B.V.Raju Institute of Technology, Medak,India<br>
+                    2017-2021, CGPA-9.68/10<br>
+                    Stream-Computer Science & Engineering,<br>
+                    Electives-Artificial Intelligence,Software Engineering,Internet of Things,Python
+                </li>
+            </ul>
+        </div>
+        <div class="box" id="Certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>
+                    <h3>Artificial Intelligence, 2020</h3>
+                        Received a gold certificate by NASSCOM and Michigan University on clearing and completing the course.
+                </li>
+                <li>
+                    <h3>Python for Everybody and HTML, 2020</h3>
+                    Certified by Michigan University on completing all courses under Python and HTML on Coursera platform.
+
+
+                </li>
+                
+            </ul>
+
+        </div>
+    </div>
+    <div class="box4" style="color:#005842;" id="Contact">
+        <h2>Contact</h2>
+        <a class="cnt" href="#"><i class="fas fa-mobile-alt"></i> 2163708896</a>  
+        <a class="cnt" href="#"><i class="fas fa-envelope"></i>prathibha.garipelly@gmail.com</a>
+        <a class="cnt" href="https://www.linkedin.com/in/prathibha-garipelly-4032051a4/"><i class="fab fa-linkedin"></i>Prathibha Garipelly</a>
+        <a class="cnt" href="https://github.com/PrathibhaGaripelly"><i class="fab fa-github"></i> Prathibha Garipelly</a>
+    </div>
+</body>
+<style>
+    nav{
+   display: flex;
+   position: fixed;
+   top:0;
+   width: 100%;
+   background-color:white;
+   overflow: none;
+   height: 50px;
+ 
+}
+.nav_left{
+   flex:0.7 0.3 300px;
+}
+.nav_links {
+   display: inline-block;
+   text-align: center;
+   color: rgb(225, 112, 63);
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bolder;
+}
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(225, 112, 63);
+  text-align: center;
+  line-height: 30px;
+  color: rgb(37, 35, 34);
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+  .circle::before {
+  content: "PG";
+  align-content: center;
+}
+#about{
+    width:100%;
+    height:100px;  
+    background-color:#B2D1C9;
+}
+#Experience,#Projects{
+    background-color:#90AE85;
+}
+#Education,#Certifications{
+    background-color:#647C41;
+}
+#Contact{
+    background-color:#005842;
+}
+.box{
+ 
+            width:50%;
+            height:300px;
+            float:left;
+ }
+ 
+ a{
+    display: inline-block;
+    text-decoration: none;
+
+ }
+
+.cnt{       
+    
+            color:black;
+            font-size:18px;
+            width:23%;
+            height:100px;
+            display:inline-block;
+ }
+ h2{
+    color:rgb(225, 112, 63);
+    text-decoration:underline;
+ }
+ h3{
+    color:rgb(225, 112, 63);
+ }
+
+</style>
+
+
+</html>
